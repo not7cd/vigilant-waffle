@@ -69,7 +69,7 @@ def run():
 
 
         world.process()
-        sdl2.SDL_Delay(10)
+        sdl2.SDL_Delay(1)
         cycles += 1
         print('cycle:', cycles)
     return 0
